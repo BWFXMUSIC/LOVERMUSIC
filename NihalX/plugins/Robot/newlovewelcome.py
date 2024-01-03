@@ -11,7 +11,7 @@ WEL_GIFS = [
 
 def create_close_button():
     return InlineKeyboardMarkup(
-        [[InlineKeyboardButton("๏ ᴄʟᴏsᴇ ๏", callback_data="close")]]
+        [[InlineKeyboardButton("✨✧༏ ᴍů༏ꜱꜱ✧ʏᴏᴜ ✨", callback_data="close")]]
     )
 
 @bot.on_message(filters.new_chat_members)
@@ -26,7 +26,7 @@ async def welcome(_, m: Message):
 
 @bot.on_message(filters.left_chat_member)
 async def member_has_left(_, m: Message):
-    left_gif = "https://telegra.ph/file/d28047520fad932521368.mp4"
+    left_gif = "https://telegra.ph/file/d53f47bcb7c6f9101bd93.mp4"
     await m.reply_animation(
         left_gif,
         caption=f"Sᴀᴅ Tᴏ Sᴇᴇ Yᴏᴜ Lᴇᴀᴠɪɴɢ {m.from_user.mention}\nTᴀᴋᴇ Cᴀʀᴇ!\n",
