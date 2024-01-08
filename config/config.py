@@ -7,8 +7,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "23392712"))
-API_HASH = getenv("API_HASH", "7cb236b197b25c243fa83e7e0173d0e6")
+API_ID = int(getenv("API_ID", "16157631"))
+API_HASH = getenv("API_HASH", "4c585632f990d84ac0bf7e881f49ebeb")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001822336951"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Ashish ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Asʜɪsʜダᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "926151330").split())
+    map(int, getenv("OWNER_ID", "6052880487").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MrNihalXd/HEROKUMusix",
+    "https://github.com/KwsMusic/Shabnamrobot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -45,7 +45,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/BWF_MUSIC1")
+    "SUPPORT_GROUP", "https://t.me/ALL_QUIZ_TAME")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/BWFXMUSIC/LOVERMUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/KwsMusic/Shabnamrobot")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/5a9a6e65c8dd95331f819.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.postimg.cc/sDtyNnZH/20231123-232120.png")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/5a9a6e65c8dd95331f819.jpg",
+    "https://i.postimg.cc/sDtyNnZH/20231123-232120.png",
 )
 
 PLAYLIST_IMG_URL = getenv(
