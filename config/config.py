@@ -7,8 +7,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "16157631"))
-API_HASH = getenv("API_HASH", "4c585632f990d84ac0bf7e881f49ebeb")
+API_ID = int(getenv("API_ID", "23392712"))
+API_HASH = getenv("API_HASH", "7cb236b197b25c243fa83e7e0173d0e6")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001822336951"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Asʜɪsʜダᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Ashish ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6052880487").split())
+    map(int, getenv("OWNER_ID", "926151330").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/BWFXMUSIC/LOVERMUSIC",
+    "https://github.com/MrNihalXd/HEROKUMusix",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -45,7 +45,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ALL_QUIZ_TAME")
+    "SUPPORT_GROUP", "https://t.me/BWF_MUSIC1")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -103,24 +103,68 @@ clean = {}
 
 autoclean = []
 
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/5a9a6e65c8dd95331f819.jpg")
 
-
-START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-)
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+    "PING_IMG_URL",
+    "https://telegra.ph/file/5a9a6e65c8dd95331f819.jpg",
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/e576aa8308c49d945f433.jpg"
+
+PLAYLIST_IMG_URL = getenv(
+    "PLAYLIST_IMG_URL",
+    "assets/Playlist.jpeg",
+)
+
+GLOBAL_IMG_URL = getenv(
+    "GLOBAL_IMG_URL",
+    "assets/Global.jpeg",
+)
+
+STATS_IMG_URL = getenv(
+    "STATS_IMG_URL",
+    "assets/Stats.jpeg",
+)
+
+TELEGRAM_AUDIO_URL = getenv(
+    "TELEGRAM_AUDIO_URL",
+    "assets/Audio.jpeg",
+)
+
+TELEGRAM_VIDEO_URL = getenv(
+    "TELEGRAM_VIDEO_URL",
+    "assets/Video.jpeg",
+)
+
+STREAM_IMG_URL = getenv(
+    "STREAM_IMG_URL",
+    "assets/Stream.jpeg",
+)
+
+SOUNCLOUD_IMG_URL = getenv(
+    "SOUNCLOUD_IMG_URL",
+    "assets/Soundcloud.jpeg",
+)
+
+YOUTUBE_IMG_URL = getenv(
+    "YOUTUBE_IMG_URL",
+    "assets/Youtube.jpeg",
+)
+
+SPOTIFY_ARTIST_IMG_URL = getenv(
+    "SPOTIFY_ARTIST_IMG_URL",
+    "assets/SpotifyArtist.jpeg",
+)
+
+SPOTIFY_ALBUM_IMG_URL = getenv(
+    "SPOTIFY_ALBUM_IMG_URL",
+    "assets/SpotifyAlbum.jpeg",
+)
+
+SPOTIFY_PLAYLIST_IMG_URL = getenv(
+    "SPOTIFY_PLAYLIST_IMG_URL",
+    "assets/SpotifyPlaylist.jpeg",
+)
+
 
 def time_to_seconds(time):
     stringt = str(time)
